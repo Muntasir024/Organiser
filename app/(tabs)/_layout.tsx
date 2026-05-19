@@ -13,10 +13,10 @@ export default function TabsLayout() {
         tabBarShowLabel: false,
         tabBarStyle: {
           position: 'absolute',
-          bottom: Platform.OS === 'ios' ? 24 : 16,
+          bottom: Platform.OS === 'ios' ? 24 : 6,
           left: 16,
           right: 16,
-          height: 64,
+          height: 40,
           borderRadius: 32,
           backgroundColor: '#FFFFFF',
           borderTopWidth: 0,
@@ -25,8 +25,8 @@ export default function TabsLayout() {
           shadowOffset: { width: 0, height: 6 },
           shadowRadius: 16,
           elevation: 8,
-          paddingHorizontal: 16,
-          marginHorizontal: 16,
+          paddingHorizontal: 10,
+          marginHorizontal: 10,
         },
       }}
     >
